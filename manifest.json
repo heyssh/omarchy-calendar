@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "ssh.calendar",
+  "name": "Calendar",
+  "version": "1.0.0",
+  "author": "SSH",
+  "license": "MIT",
+  "description": "Month calendar with a day-notes popup.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Calendar",
+    "description": "Month calendar with a day-notes popup.",
+    "category": "Info",
+    "allowMultiple": false
+  }
+}
