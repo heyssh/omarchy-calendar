@@ -3,8 +3,8 @@
 A month-view calendar with per-day notes for [Omarchy](https://github.com/basecamp/omarchy).
 
 <p align="center">
-  <img src="screenshots/1.png" width="45%" />
-  <img src="screenshots/2.png" width="47%" />
+  <img src="screenshots/1.png" width="25%" />
+  <img src="screenshots/2.png" width="26%" />
 </p>
 
 ## Features
