@@ -4,25 +4,7 @@ Month-view calendar with per-day notes for [Omarchy](https://github.com/basecamp
 
 ## Features
 
-- Month grid (fixed 6×7 so the popup never resizes between short and
-  long months)
-- Click any day to select it; notes are scoped per day
-- Add / remove notes for the selected day, saved to
-  `~/.local/state/ssh.calendar/notes.json`
-- WEEK / NOTES stats for quick context on the selected week and month
-- Its own bar icon — click to open, click again to close
-
-## Keyboard shortcuts
-
-Inside the panel:
-
-- `h` / `j` / `k` / `l` or arrows: move selection by day / week
-- `enter` / `space`: focus the note input
-- `x`: remove the last note for the selected day
-- `t`: jump to today
-- `[` / `]`: previous / next month
-- `tab`: switch to the next panel
-- `esc`: close
+Click the calendar icon in the bar and a month view pops up — click it again, or hit Esc, to close it. Pick any day to see its notes, add a new one, or clear the last one; each day keeps its own list, so nothing gets mixed up between dates, and everything's just saved locally to `~/.local/state/ssh.calendar/notes.json`. The grid always shows six full weeks, so the panel stays the same size whether you're looking at February or a five-week month. A small WEEK/NOTES readout up top gives you a bit of context — which week of the year you're on, how many notes the month has — without having to count anything yourself.
 
 ## Install
 
