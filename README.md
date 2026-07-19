@@ -27,7 +27,7 @@ Inside the panel:
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/<you>/omarchy-calendar.git
+omarchy plugin add https://github.com/heyssh/omarchy-calendar.git
 omarchy plugin enable ssh.calendar
 omarchy bar plugin add ssh.calendar
 ```
