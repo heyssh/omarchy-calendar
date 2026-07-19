@@ -49,7 +49,12 @@ Panel {
   property int viewMonth: today.getMonth()
   property date selectedDate: today
 
-  readonly property bool weekStartsMonday: setting("weekStart", "monday") !== "sunday"
+  // Auto-detected from the system locale (most of Europe/Asia starts
+  // Monday, North America/parts of the Middle East start Sunday), so it
+  // matches the user's OS out of the box without any config. The
+  // "weekStart" setting, if present in shell.json, always overrides this.
+  readonly property string localeWeekStart: Qt.locale().firstDayOfWeek === Qt.Sunday ? "sunday" : "monday"
+  readonly property bool weekStartsMonday: setting("weekStart", root.localeWeekStart) !== "sunday"
   readonly property string selectedIso: Model.isoFromDate(selectedDate)
 
   readonly property var monthGrid: Model.buildMonthGrid(root.viewYear, root.viewMonth, root.weekStartsMonday, root.today)

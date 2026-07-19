@@ -10,7 +10,7 @@ This plugin only adds its own bar icon — it doesn't modify Omarchy's built-in 
 
 ## Configuration
 
-By default the week starts on Monday. To start it on Sunday instead, add `"weekStart": "sunday"` to this plugin's entry in `~/.config/omarchy/shell.json`:
+The week start day (Monday vs. Sunday) is auto-detected from your system locale, so it should already match what you're used to. To override it, add `"weekStart"` to this plugin's entry in `~/.config/omarchy/shell.json`:
 
 ```json
 { "id": "ssh.calendar", "weekStart": "sunday" }
