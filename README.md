@@ -18,7 +18,7 @@ Inside the panel:
 
 - `h` / `j` / `k` / `l` or arrows: move selection by day / week
 - `enter` / `space`: focus the note input
-- `backspace` / `delete`: remove the last note for the selected day
+- `x`: remove the last note for the selected day
 - `t`: jump to today
 - `[` / `]`: previous / next month
 - `tab`: switch to the next panel
